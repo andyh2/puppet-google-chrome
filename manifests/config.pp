@@ -13,7 +13,7 @@ class google_chrome::config() inherits google_chrome::params {
         location          => $google_chrome::params::repo_base_url,
         release           => 'stable',
         key_source        => $google_chrome::params::repo_gpg_key,
-        key               => '7FAC5991',
+        key               => '4CCA1EAF950CEE4AB83976DCA040830F7FAC5991',
         repos             => 'main',
         include_src       => false,
       }    
